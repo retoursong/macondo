@@ -1,0 +1,14 @@
+# Godot 4 导入缓存与本地状态
+.godot/
+/android/
+
+# 导出产物
+/build/
+/export/
+*.tmp
+
+# macOS
+.DS_Store
+
+# 编辑器本地配置
+*.translation

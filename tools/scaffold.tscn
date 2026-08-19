@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://tools/scaffold_runner.gd" id="1_t2qvt"]
+
+[node name="ToolRunner" type="Node" unique_id=1029416603]
+script = ExtResource("1_t2qvt")
