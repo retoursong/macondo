@@ -11,6 +11,9 @@ make run       # 直接跑游戏
 make test      # 自检 + 冒烟，改完基建先跑这个
 ```
 
+新克隆仓库后不用手动做任何事：`.godot/` 导入缓存不进版本库，
+`make run/check/smoke` 发现它不在会自动先跑一遍 `make import`。
+
 跑起来后：`WASD` 移动方块，`空格` 加分，`Esc` 暂停，`F3` 调试浮层。
 
 ## 目录
