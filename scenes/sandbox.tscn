@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" path="res://scenes/sandbox.gd" id="1_2ddto"]
 
-[node name="Sandbox" type="Node2D" unique_id=585026783]
+[node name="Sandbox" type="Node2D" unique_id=1128872264]
 script = ExtResource("1_2ddto")

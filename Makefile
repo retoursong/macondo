@@ -1,7 +1,7 @@
 # Godot Lab —— 常用命令。跑 `make` 看列表。
 GODOT ?= godot
 
-.PHONY: help run editor import check smoke test scaffold input font clean
+.PHONY: help run editor import check smoke test playtest scaffold input font clean
 
 help:
 	echo "make run       启动游戏"
@@ -36,6 +36,9 @@ smoke: | .godot
 	GODOT=$(GODOT) ./tools/smoke.sh
 
 test: check smoke
+
+playtest: | .godot
+	$(GODOT) --headless res://tools/playtest.tscn
 
 scaffold: | .godot
 	$(GODOT) --headless --script tools/make_tool_scenes.gd

@@ -8,7 +8,7 @@ GODOT="${GODOT:-godot}"
 FRAMES="${FRAMES:-240}"
 
 # 空串 = 走 project.godot 里配的主场景（即完整 boot → 主菜单 流程）
-SCENES=("" "res://scenes/sandbox.tscn")
+SCENES=("" "res://scenes/sandbox.tscn" "res://scenes/story.tscn")
 
 fail=0
 for scene in "${SCENES[@]}"; do

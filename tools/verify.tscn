@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" path="res://tools/verify_runner.gd" id="1_n7a1o"]
 
-[node name="ToolRunner" type="Node" unique_id=408733811]
+[node name="ToolRunner" type="Node" unique_id=1877346059]
 script = ExtResource("1_n7a1o")

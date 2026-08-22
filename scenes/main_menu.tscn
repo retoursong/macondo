@@ -2,51 +2,51 @@
 
 [ext_resource type="Script" path="res://scenes/main_menu.gd" id="1_l6cm7"]
 
-[node name="MainMenu" type="Control" unique_id=1313274641]
+[node name="MainMenu" type="Control" unique_id=790321608]
 layout_mode = 3
 anchors_preset = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource("1_l6cm7")
 
-[node name="Background" type="ColorRect" parent="." unique_id=1368761913]
+[node name="Background" type="ColorRect" parent="." unique_id=1764658991]
 layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
 mouse_filter = 2
 color = Color(0.09, 0.1, 0.13, 1)
 
-[node name="Center" type="CenterContainer" parent="." unique_id=1472946717]
+[node name="Center" type="CenterContainer" parent="." unique_id=983138923]
 layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
 
-[node name="VBox" type="VBoxContainer" parent="Center" unique_id=1578711542]
+[node name="VBox" type="VBoxContainer" parent="Center" unique_id=1733686768]
 layout_mode = 2
 theme_override_constants/separation = 14
 
-[node name="Title" type="Label" parent="Center/VBox" unique_id=1786777626]
+[node name="Title" type="Label" parent="Center/VBox" unique_id=1328206104]
 layout_mode = 2
 theme_override_font_sizes/font_size = 52
 text = "Godot Lab"
 horizontal_alignment = 1
 
-[node name="Stats" type="Label" parent="Center/VBox" unique_id=727732943]
+[node name="Stats" type="Label" parent="Center/VBox" unique_id=972369091]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.65, 0.68, 0.75, 1)
 text = "最高分 0   ·   已玩 0 局"
 horizontal_alignment = 1
 
-[node name="Spacer" type="Control" parent="Center/VBox" unique_id=574396231]
+[node name="Spacer" type="Control" parent="Center/VBox" unique_id=1700956781]
 custom_minimum_size = Vector2(0, 24)
 layout_mode = 2
 
-[node name="PlayButton" type="Button" parent="Center/VBox" unique_id=1546014848]
+[node name="PlayButton" type="Button" parent="Center/VBox" unique_id=969509808]
 custom_minimum_size = Vector2(260, 48)
 layout_mode = 2
 text = "开始"
 
-[node name="QuitButton" type="Button" parent="Center/VBox" unique_id=1159594018]
+[node name="QuitButton" type="Button" parent="Center/VBox" unique_id=963000137]
 custom_minimum_size = Vector2(260, 48)
 layout_mode = 2
 text = "退出"

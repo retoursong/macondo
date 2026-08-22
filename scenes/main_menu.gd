@@ -18,7 +18,7 @@ func _ready() -> void:
 
 
 func _on_play_pressed() -> void:
-	SceneRouter.change_to(SceneRouter.SANDBOX)
+	SceneRouter.change_to(SceneRouter.STORY)
 
 
 func _on_quit_pressed() -> void:

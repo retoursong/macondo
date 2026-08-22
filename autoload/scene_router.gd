@@ -10,6 +10,7 @@ extends Node
 const BOOT := "res://scenes/boot.tscn"
 const MAIN_MENU := "res://scenes/main_menu.tscn"
 const SANDBOX := "res://scenes/sandbox.tscn"
+const STORY := "res://scenes/story.tscn"
 
 const FADE_TIME := 0.25
 

@@ -11,7 +11,9 @@ func _ready() -> void:
 	_build_boot()
 	_build_main_menu()
 	_build_sandbox()
+	_build_story()
 	_build_tool_scene("res://tools/verify_runner.gd", "res://tools/verify.tscn")
+	_build_tool_scene("res://tools/playtest_runner.gd", "res://tools/playtest.tscn")
 	print("[scaffold] 完成")
 	get_tree().quit()
 
@@ -85,6 +87,14 @@ func _build_sandbox() -> void:
 	root.name = "Sandbox"
 	root.set_script(load("res://scenes/sandbox.gd"))
 	_save(root, "res://scenes/sandbox.tscn")
+
+
+func _build_story() -> void:
+	var root := Control.new()
+	root.name = "Story"
+	root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	root.set_script(load("res://scenes/story.gd"))
+	_save(root, "res://scenes/story.tscn")
 
 
 func _build_tool_scene(script_path: String, scene_path: String) -> void:

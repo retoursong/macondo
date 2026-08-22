@@ -12,3 +12,8 @@
 
 # 编辑器本地配置
 *.translation
+
+# API key，绝不提交
+.ark_key
+# codex -s workspace-write 会留下的空文件
+.copy-placeholder
