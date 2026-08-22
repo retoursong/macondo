@@ -10,6 +10,9 @@
 import re, json, sys, zipfile
 
 FOOTNOTE = re.compile(r'^[①②③④⑤⑥⑦⑧⑨⑩]')
+TITLE = re.compile(r'^百年孤独')
+# 以这些字符开头 = 上一段被译注截断的残尾，必须接回去
+ORPHAN_HEAD = re.compile(r'^[、；，。和的]')
 # 句末：终止标点之后可以跟收尾引号；单独一个引号（如“哲学之卵”）不算句末
 SENT_END = re.compile(r'[。！？…]["”」』）]*$')
 
@@ -20,15 +23,18 @@ def load_paragraphs(epub_path, part):
     t = re.sub(r'<(script|style)[^>]*>.*?</\1>', '', raw, flags=re.S)
     t = re.sub(r'<[^>]+>', '\n', t)
     t = re.sub(r'&[a-z]+;', ' ', t)
-    return [re.sub(r'\s+', '', p) for p in t.split('\n') if len(re.sub(r'\s+', '', p)) > 40]
+    # 不按长度过滤！台词天生短（"这是我们这个时代最伟大的发明。"只有17字），
+    # 按长度砍会把全章的戏剧高潮全部砍掉。
+    return [q for q in (re.sub(r'\s+', '', p) for p in t.split('\n')) if q]
 
 
 def clean(paras):
     """滤译注，并把被译注截断的半句接回去。返回 (正文段, 每段对应的原始下标)。"""
-    kept = [(i, p) for i, p in enumerate(paras) if not FOOTNOTE.match(p)]
+    kept = [(i, p) for i, p in enumerate(paras)
+            if not FOOTNOTE.match(p) and not TITLE.match(p)]
     body, src = [], []
     for i, p in kept:
-        if body and not SENT_END.search(body[-1]):
+        if body and (not SENT_END.search(body[-1]) or ORPHAN_HEAD.match(p)):
             body[-1] += p
             src[-1].append(i)
         else:
@@ -94,6 +100,19 @@ def build(body, src, table, chapter):
     return scenes
 
 
+# 必须出现在成品里的台词。第一版因为按长度过滤，把这些全丢了——
+# 台词天生短，正是戏剧高潮所在。任何人改流水线时，这里会当场报警。
+MUST_KEEP_CH01 = [
+    "地球是圆的，就像个橙子",
+    "这是魔鬼的气味",
+    "马孔多周围全是水",
+    "就留在这儿，因为我们已经在这儿生了一个孩子",
+    "如果非要我死了才能留下",
+    "这是世上最大的钻石",
+    "这是我们这个时代最伟大的发明",
+]
+
+
 def main():
     epub = sys.argv[1]
     paras = load_paragraphs(epub, 'part0003.html')
@@ -106,6 +125,11 @@ def main():
         a, b = s["source"]["body_paras"]
         covered += list(range(a, b + 1))
     assert covered == list(range(len(body))), f"覆盖不完整或有重叠: {covered}"
+
+    text = ''.join(''.join(s["narration"]) for s in scenes)
+    missing = [l for l in MUST_KEEP_CH01 if l not in text]
+    if missing:
+        raise SystemExit("关键台词丢失：\n  " + "\n  ".join(missing))
 
     out = {"book": "百年孤独", "translator": "范晔", "chapter": 1,
            "source_file": epub.split("/")[-1], "scenes": scenes}
