@@ -57,6 +57,8 @@ var _choice_box: VBoxContainer
 var _log: RichTextLabel
 var _input: LineEdit
 var _next: Button
+var _prev_button: Button
+var _next_page_button: Button
 
 
 func _ready() -> void:
@@ -189,15 +191,16 @@ func _render_page() -> void:
 	_pager.text = "%s　%d/%d" % [dots, _page + 1, _pages.size()]
 
 	var last := _page >= _pages.size() - 1
+	_prev_button.disabled = _page == 0
+	_next_page_button.disabled = false
 	_hint.visible = true
-	_hint.text = "空格 / 点击　继续读" if not last else "空格 / 点击　读完了"
+	_hint.text = "←　回看　　空格 / 点击　往下" if not last else "←　回看　　空格 / 点击　说点什么"
 	_talk.visible = false
 	_next.visible = false
 
 
 func _enter_talking() -> void:
 	_state = State.TALKING
-	_hint.visible = false
 	_pager.text = ""
 	_text.clear()
 	_text.push_font(_serif)
@@ -206,6 +209,10 @@ func _enter_talking() -> void:
 	_text.append_text(String(_pages[-1]) if not _pages.is_empty() else "")
 	_text.pop(); _text.pop(); _text.pop()
 
+	_prev_button.disabled = false
+	_next_page_button.disabled = true
+	_hint.visible = true
+	_hint.text = "←　回去重读"
 	_talk.visible = true
 	_next.visible = true
 	_next.text = "第一章完" if _index >= _scenes.size() - 1 else "继续 →"
@@ -214,21 +221,50 @@ func _enter_talking() -> void:
 	_render_choices()
 
 
-func _unhandled_input(event: InputEvent) -> void:
-	if _state != State.READING:
+func _go_prev() -> void:
+	if _state == State.TALKING:
+		# 从对话态退回最后一页，可以重读
+		_state = State.READING
+		_page = maxi(0, _pages.size() - 1)
+		_render_page()
+	elif _page > 0:
+		_page -= 1
+		_render_page()
+
+
+func _go_next() -> void:
+	if _state == State.TALKING:
 		return
-	var go: bool = event.is_action_pressed("ui_accept")
-	if event is InputEventMouseButton:
-		var mb := event as InputEventMouseButton
-		go = go or (mb.pressed and mb.button_index == MOUSE_BUTTON_LEFT)
-	if not go:
-		return
-	get_viewport().set_input_as_handled()
 	if _page < _pages.size() - 1:
 		_page += 1
 		_render_page()
 	else:
 		_enter_talking()
+
+
+func _unhandled_input(event: InputEvent) -> void:
+	# 往回：← / Backspace / 鼠标右键
+	var back: bool = event.is_action_pressed("ui_left")
+	# 往前：→ / 空格 / 鼠标左键（只在阅读态吃点击，免得跟按钮打架）
+	var fwd: bool = event.is_action_pressed("ui_accept") or event.is_action_pressed("ui_right")
+	if event is InputEventMouseButton:
+		var mb := event as InputEventMouseButton
+		if mb.pressed:
+			if mb.button_index == MOUSE_BUTTON_RIGHT:
+				back = true
+			elif mb.button_index == MOUSE_BUTTON_LEFT and _state == State.READING:
+				fwd = true
+	if event is InputEventKey:
+		var kb := event as InputEventKey
+		if kb.pressed and not kb.echo and kb.keycode == KEY_BACKSPACE:
+			back = true
+
+	if back:
+		get_viewport().set_input_as_handled()
+		_go_prev()
+	elif fwd and _state == State.READING:
+		get_viewport().set_input_as_handled()
+		_go_next()
 
 
 # ---------- 选项 ----------
@@ -453,7 +489,14 @@ func _build_ui() -> void:
 	inner.add_child(_text)
 
 	var pagerow := HBoxContainer.new()
+	pagerow.add_theme_constant_override("separation", 10)
 	inner.add_child(pagerow)
+
+	_prev_button = _arrow("◀", _go_prev)
+	pagerow.add_child(_prev_button)
+	_next_page_button = _arrow("▶", _go_next)
+	pagerow.add_child(_next_page_button)
+
 	_pager = Label.new()
 	_pager.add_theme_color_override("font_color", C_DIM)
 	_pager.add_theme_font_size_override("font_size", 12)
@@ -463,8 +506,10 @@ func _build_ui() -> void:
 	pagerow.add_child(sp2)
 	_hint = Label.new()
 	_hint.add_theme_color_override("font_color", C_DIM)
+	_hint.add_theme_font_override("font", _sans)
 	_hint.add_theme_font_size_override("font_size", 12)
 	pagerow.add_child(_hint)
+
 
 	# 对话区（读完才出现）
 	_talk = VBoxContainer.new()
@@ -512,3 +557,14 @@ func _plate_label(size: int, color: Color) -> Label:
 	l.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.85))
 	l.add_theme_constant_override("outline_size", 7)
 	return l
+func _arrow(glyph: String, cb: Callable) -> Button:
+	var b := Button.new()
+	b.text = glyph
+	b.flat = true
+	b.custom_minimum_size = Vector2(30, 26)
+	b.add_theme_font_size_override("font_size", 14)
+	b.add_theme_color_override("font_color", C_ACCENT)
+	b.add_theme_color_override("font_hover_color", C_INK)
+	b.add_theme_color_override("font_disabled_color", Color(C_DIM.r, C_DIM.g, C_DIM.b, 0.3))
+	b.pressed.connect(cb)
+	return b
