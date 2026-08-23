@@ -17,3 +17,6 @@
 .ark_key
 # codex -s workspace-write 会留下的空文件
 .copy-placeholder
+
+# 第一章原文的中间产物，本地用 tools/cut_scenes.py 生成，不进仓库
+data/scenes_ch01.json
