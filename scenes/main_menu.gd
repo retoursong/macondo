@@ -3,7 +3,7 @@ extends Control
 
 const SERIF := "res://assets/fonts/NotoSerifSC-VF.ttf"
 const SANS := "res://assets/fonts/NotoSansSC-VF.ttf"
-const COVER := "res://art/scenes/ch01_s11_ice.png"
+const COVER := "res://art/scenes/ch01_s11_ice.jpg"
 
 const C_PAPER := Color("efe2c9")
 const C_DIM := Color("a08b6b")

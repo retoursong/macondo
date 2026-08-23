@@ -101,15 +101,17 @@ func _art(path: String) -> Texture2D:
 		return null
 	if _art_cache.has(path):
 		return _art_cache[path]
-	var full := ART_DIR + path + ".png"
-	if not ResourceLoader.exists(full):
-		return null
-	var tex: Texture2D = load(full)
-	_art_cache[path] = tex
-	return tex
+	# 插画统一存 jpg（铜版画用 png 太占地方），老的 png 也认
+	for ext in [".jpg", ".png"]:
+		var full: String = ART_DIR + path + String(ext)
+		if ResourceLoader.exists(full):
+			var tex: Texture2D = load(full)
+			_art_cache[path] = tex
+			return tex
+	return null
 
 
-## 换图：淡入淡出 + 极慢的推镜，别硬切
+## 换图：淡入淡出，别硬切
 func _set_art(tex: Texture2D) -> void:
 	if tex == null or tex == _bg.texture:
 		return
