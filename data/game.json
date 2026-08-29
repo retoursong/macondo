@@ -71,16 +71,104 @@
           "art": "branch/col_birth"
         },
         {
-          "text": "孩子在门口一脸困惑，说：“要掉下来了。”",
-          "art": "branch/col_pot"
+          "text": "大儿子何塞·阿尔卡蒂奥已经十四岁，脑袋四方，头发粗硬，和父亲一样固执任性。",
+          "art": "branch/col_birth"
         },
         {
-          "text": "汤锅本来好好地摆在桌子中央，但孩子话音刚落，它便像受到某种内在力量的驱使，开始不可逆转地向桌边移动，掉到地上摔得粉碎。",
-          "art": "branch/col_pot"
+          "text": "他们把阿利黎奥·诺格拉医生拖出来，绑在广场上的一棵树上，未经审判就地枪毙。",
+          "art": "branch/col_execution"
         },
         {
-          "text": "二十一个不到三十岁、用餐刀和尖铁棍武装起来的男子由奥雷里亚诺·布恩迪亚率领，奇袭军营，缴获武器",
+          "text": "奥雷里亚诺面色苍白，沉默寡言",
+          "art": "branch/col_execution"
+        },
+        {
+          "text": "四个士兵把一个被疯狗咬过的女人从家中强拖出来，当街用枪托活活打死。",
+          "art": "branch/col_execution"
+        },
+        {
+          "text": "奥雷里亚诺走进赫里内勒多·马尔克斯家，像往常一样从容地要了杯不加糖的咖啡。",
+          "art": "branch/col_decision"
+        },
+        {
+          "text": "“叫小伙子们准备好，”他说，“我们要开战了。”",
+          "art": "branch/col_decision"
+        },
+        {
+          "text": "“用什么武器呢？”他问。",
+          "art": "branch/col_decision"
+        },
+        {
+          "text": "“用他们的。”奥雷里亚诺回答。",
+          "art": "branch/col_decision"
+        },
+        {
+          "text": "二十一个不到三十岁、用餐刀和尖铁棍武装起来的男子由奥雷里亚诺·布恩迪亚率领，奇袭军营，缴获武器，并在院中将上尉和四个杀害那女人的凶手枪毙。",
           "art": "branch/col_raid"
+        },
+        {
+          "text": "这是战争。另外请不要再叫我奥雷里托，我现在是奥雷里亚诺·布恩迪亚上校。",
+          "art": "branch/col_named"
+        },
+        {
+          "text": "三月的一个星期天，奥雷里亚诺·布恩迪亚和蕾梅黛丝·摩斯科特在尼卡诺尔·雷伊纳神甫于客厅里搭起的祭坛前结为夫妇。",
+          "art": "branch/col_remedios"
+        },
+        {
+          "text": "蕾梅黛丝为这个家带来了欢快气息",
+          "art": "branch/col_remedios"
+        },
+        {
+          "text": "她和丈夫在作坊旁收拾出一间小屋，用刚刚告别的童年时代的娃娃和玩具装饰一新。",
+          "art": "branch/col_remedios"
+        },
+        {
+          "text": "三天后她被自己的血毒死，一对双胞胎也横死腹中。",
+          "art": "branch/col_remedios"
+        },
+        {
+          "text": "蕾梅黛丝的死并未引起他所担心的震惊，而更像是一种沉郁的愤怒，渐渐转化为寂寞消极的挫败感，与当初他认命选择独身时的感受相仿。",
+          "art": "branch/col_war"
+        },
+        {
+          "text": "奥雷里亚诺·布恩迪亚上校在通告发布两个星期前被捕，那时他化装成土著巫医，与西部边境相距咫尺。",
+          "art": "branch/col_wall"
+        },
+        {
+          "text": "又确信儿子明天一早会被枪毙，乌尔苏拉便把要带给他的东西包成一包，独自去了军营。",
+          "art": "branch/col_wall"
+        },
+        {
+          "text": "“我是奥雷里亚诺·布恩迪亚上校的母亲。”",
+          "art": "branch/col_wall"
+        },
+        {
+          "text": "谁也不知道是怎么回事，但大家都在说处决奥雷里亚诺·布恩迪亚上校的军官，包括行刑队的所有士兵，一个挨一个早晚都会被干掉，就算躲到天边也没用。",
+          "art": "branch/col_wall"
+        },
+        {
+          "text": "他已背朝墙站好，两手叉在腰间，因为腋下烧灼的疖块令他无法垂下手臂。",
+          "art": "branch/col_wall"
+        },
+        {
+          "text": "当行刑队瞄准他的时候，怒气凝成黏稠苦涩的东西，麻痹了他的舌头又迫使他闭上眼睛。",
+          "art": "branch/col_wall"
+        },
+        {
+          "text": "那一瞬间晨曦的银白色光芒隐没，他又看见了小时候穿着短裤系着领结的自己，看见了父亲在一个阳光明媚的下午带他走进帐篷见到了冰块。",
+          "art": "scenes/ch01_s11_ice"
+        },
+        {
+          "text": "何塞·阿尔卡蒂奥穿过街道，手中端着可怖的猎枪随时准备开火。",
+          "art": "branch/col_rescue"
+        },
+        {
+          "text": "“请别开枪，”上尉对何塞·阿尔卡蒂奥说，“您一定是上帝派来的。”",
+          "art": "branch/col_rescue"
+        },
+        {
+          "text": "由此，又一场战争爆发。",
+          "art": "branch/col_rescue"
         },
         {
           "text": "奥雷里亚诺·布恩迪亚上校发动过三十二场武装起义，无一成功。",
@@ -91,8 +179,16 @@
           "art": "scenes/ch01_s01_firing_squad"
         },
         {
-          "text": "他与十七个女人生下十七个儿子，一夜之间都被逐个除掉，其中最年长的不到三十五岁。",
-          "art": "branch/col_sons"
+          "text": "他厌倦了战事无常，身陷这场永无休止的战争的恶性循环中总在原地打转",
+          "art": "branch/col_war"
+        },
+        {
+          "text": "越发不知道为何而战、如何而战、要战到何时。",
+          "art": "branch/col_war"
+        },
+        {
+          "text": "“重要的是，从今以后我们只为权力而战。”",
+          "art": "branch/col_truce"
         },
         {
           "text": "他走到哪里都待在副官们用粉笔画出且只有他一人能进入的圆圈中心",
@@ -104,7 +200,7 @@
         },
         {
           "text": "他在爱的荒漠中结识的无数女人，把他的血脉播撒在整个沿海地区，却不曾在他的情感中留下任何痕迹。",
-          "art": "branch/col_war"
+          "art": "branch/col_circle"
         },
         {
           "text": "他一向身先士卒，却只受过一次伤，那是他在签署尼兰迪亚协定为长达近二十年的内战画上句号后自戕的结果。",
@@ -123,6 +219,54 @@
           "art": "endings/end_goldfish"
         },
         {
+          "text": "奥雷里亚诺·布恩迪亚上校拉开门闩，看见门口聚集着十七个形貌迥异的男子",
+          "art": "branch/col_sons_gather"
+        },
+        {
+          "text": "他们是他的儿子。",
+          "art": "branch/col_sons_gather"
+        },
+        {
+          "text": "被领到祭坛围栏前，由安东尼奥·伊莎贝尔神甫用圣灰在前额上画上十字。",
+          "art": "branch/col_ashcross"
+        },
+        {
+          "text": "最小的奥雷里亚诺想要清洗前额，却发现那痕迹无法消除，他的兄弟们也是如此。",
+          "art": "branch/col_ashcross"
+        },
+        {
+          "text": "“这样更好，”乌尔苏拉在与他们告别时说，“从今往后谁都不会把你们认错。”",
+          "art": "branch/col_ashcross"
+        },
+        {
+          "text": "那个星期里，在沿海各地，他的十七个儿子像兔子般被暗藏的凶手瞄准额间的灰烬十字一一猎杀。",
+          "art": "branch/col_sons"
+        },
+        {
+          "text": "他心里没有悲痛，只有无处发泄的盲目愤怒，以及徒耗精力的无奈。",
+          "art": "branch/col_sons"
+        },
+        {
+          "text": "他不再制作小金鱼，吃不下东西，拖着毯子像梦游者一般在家中游荡，口中咀嚼着默然的怒火。",
+          "art": "branch/col_tree"
+        },
+        {
+          "text": "他把蕾梅黛丝那些从成婚时起就装饰在卧室里的娃娃拿到院里付之一炬。",
+          "art": "branch/col_dolls"
+        },
+        {
+          "text": "警觉的乌尔苏拉发现了儿子的举动，却没能制止。",
+          "art": "branch/col_dolls"
+        },
+        {
+          "text": "“你心肠硬得像石头。”她对他说。",
+          "art": "branch/col_dolls"
+        },
+        {
+          "text": "“这不是心肠的问题。”他回答，“房间里全是蛀虫。”",
+          "art": "branch/col_dolls"
+        },
+        {
           "text": "他紧紧封闭起自己的内心，家人最后就权当他已不在人世。",
           "art": "branch/col_tree"
         },
@@ -131,21 +275,545 @@
           "art": "branch/col_circus"
         },
         {
+          "text": "“是马戏团。”",
+          "art": "branch/col_circus"
+        },
+        {
           "text": "从年轻时代起，他第一次有意落入怀旧的陷阱，仿佛回到了吉卜赛人到来时父亲带他去见识冰块的那个神奇下午。",
           "art": "scenes/ch01_s11_ice"
         },
         {
-          "text": "他看见一个女人穿得金光闪闪骑在大象的脖子上。他看见哀伤的单峰驼。",
-          "art": "branch/col_circus"
+          "text": "最后当队伍全部走过，街上只剩下空荡荡一片，空中满是飞蚁",
+          "art": "branch/col_empty_street"
         },
         {
-          "text": "最后当队伍全部走过，街上只剩下空荡荡一片，空中满是飞蚁，几个好奇的人还在茫然观望时，他又一次看见了自己那可悲的孤独的脸。",
+          "text": "他又一次看见了自己那可悲的孤独的脸。",
           "art": "branch/col_empty_street"
         }
       ],
       "ending": {
         "text": "他像只小鸡一样把头缩在双肩里，额头抵上树干便一动不动了。",
         "art": "branch/col_tree"
+      }
+    },
+    "flowers": {
+      "who": "何塞·阿尔卡蒂奥·布恩迪亚",
+      "tag": "疯掉的那种孤独",
+      "screens": [
+        {
+          "text": "何塞·阿尔卡蒂奥·布恩迪亚在斗鸡比赛中赢了普鲁邓希奥·阿基拉尔。",
+          "art": "branch/jab_cockfight"
+        },
+        {
+          "text": "“祝贺你，”他喊道，“看看这只鸡能不能帮上你女人的忙。”",
+          "art": "branch/jab_cockfight"
+        },
+        {
+          "text": "“你呢，赶紧回家拿上家伙，因为我要杀了你。”",
+          "art": "branch/jab_cockfight"
+        },
+        {
+          "text": "他还没来得及反抗，何塞·阿尔卡蒂奥·布恩迪亚就以公牛般的力气投出了长矛",
+          "art": "branch/jab_spear"
+        },
+        {
+          "text": "刺穿了他的咽喉。",
+          "art": "branch/jab_spear"
+        },
+        {
+          "text": "乌尔苏拉到院子里喝水，就看见普鲁邓希奥·阿基拉尔待在大瓮边",
+          "art": "branch/jab_ghost"
+        },
+        {
+          "text": "他浑身青紫，神情优伤，正努力用芦草团堵住咽喉上的空洞。",
+          "art": "branch/jab_ghost"
+        },
+        {
+          "text": "“死人是不会出现的，”他说，“只不过我们自己受不了良心上的负担。",
+          "art": "branch/jab_ghost"
+        },
+        {
+          "text": "“他一定很痛苦，”他对乌尔苏拉说，“看得出他非常孤独。”",
+          "art": "branch/jab_ghost"
+        },
+        {
+          "text": "“好吧，普鲁邓希奥，”他说，“我们会离开这个村子，能走多远就走多远，永远不回来。",
+          "art": "branch/jab_exodus"
+        },
+        {
+          "text": "出发之前，何塞·阿尔卡蒂奥·布恩迪亚将长矛埋在院子里",
+          "art": "branch/jab_exodus"
+        },
+        {
+          "text": "他们没有预定的路线，只想朝着与里奥阿查相反的方向进发",
+          "art": "branch/jab_exodus"
+        },
+        {
+          "text": "他想到可以利用这个无用的发明来挖掘地下黄金。",
+          "art": "scenes/ch01_s01_magnet"
+        },
+        {
+          "text": "“地球是圆的，就像个橙子。”",
+          "art": "scenes/ch01_s02_orange"
+        },
+        {
+          "text": "何塞·阿尔卡蒂奥·布恩迪亚没能解开镜屋之梦，直到见识冰块的那一刻。",
+          "art": "scenes/ch01_s11_ice"
+        },
+        {
+          "text": "他不再吃饭，不再睡觉。",
+          "art": "branch/jab_monday"
+        },
+        {
+          "text": "“今天星期几？”",
+          "art": "branch/jab_monday"
+        },
+        {
+          "text": "“我想也是，”何塞·阿尔卡蒂奥·布恩迪亚说，“可我忽然又觉得还是星期一，跟昨天一样。",
+          "art": "branch/jab_monday"
+        },
+        {
+          "text": "“时间这个机器散架了，”他几乎哭了出来",
+          "art": "branch/jab_monday"
+        },
+        {
+          "text": "于是他抽出一根门闩，以超常的力量和野蛮的劲头将所有炼金设备、银版照相装置、金银器作坊都砸个稀烂",
+          "art": "branch/jab_smash"
+        },
+        {
+          "text": "将他按倒在地用了十个人，捆绑起来用了十四个人，拖到院中的栗树那里用了二十个人。",
+          "art": "branch/jab_smash"
+        },
+        {
+          "text": "他被绑在树上，用奇怪的语言喊叫着，嘴里吐出绿色的泡沬。",
+          "art": "branch/jab_tree"
+        },
+        {
+          "text": "就这样，人们知道了何塞·阿尔卡蒂奥·布恩迪亚口中的鬼话其实是拉丁语。",
+          "art": "branch/jab_tree"
+        },
+        {
+          "text": "身形魁梧的老人被绑在栗树树干上，蜷缩于棕榈叶顶棚下的一张小木凳上，饱经日晒雨淋已失去血色。",
+          "art": "branch/jab_tree"
+        }
+      ],
+      "ending": {
+        "text": "花雨在镇上落了一整夜，这静寂的风暴覆盖了房顶，堵住了屋门，令露宿的动物窒息而死。",
+        "art": "endings/end_flowers"
+      }
+    },
+    "shroud": {
+      "who": "阿玛兰妲",
+      "tag": "把爱推开了的那种孤独",
+      "screens": [
+        {
+          "text": "皮埃特罗·克雷斯皮是个金发的年轻人，马孔多的居民还从未见过这样英俊又有教养的男子。",
+          "art": "branch/am_crespi"
+        },
+        {
+          "text": "在客厅旁的起居室里，皮埃特罗·克雷斯皮教她们跳舞。",
+          "art": "branch/am_crespi"
+        },
+        {
+          "text": "日期定在婚礼前最后一个星期五，方式是在咖啡中加一剂鸦片酊。",
+          "art": "branch/am_poison"
+        },
+        {
+          "text": "由于她向上帝疯狂祈求，鸦片酊误落在蕾梅黛丝的咖啡里。",
+          "art": "branch/am_coffin_small"
+        },
+        {
+          "text": "三天后她被自己的血毒死，一对双胞胎也横死腹中。",
+          "art": "branch/am_coffin_small"
+        },
+        {
+          "text": "阿玛兰妲受到良心的谴责。",
+          "art": "branch/am_coffin_small"
+        },
+        {
+          "text": "“别天真了，克雷斯皮，”她微笑着，“我死也不会和你结婚的。”",
+          "art": "branch/am_crespi"
+        },
+        {
+          "text": "“别浪费时间了，”这便是阿玛兰妲的全部回应，“如果你真那么爱我，就请不要再进这个家。”",
+          "art": "branch/am_crespi"
+        },
+        {
+          "text": "乌尔苏拉决定在家中为他守灵。",
+          "art": "branch/am_coffin_small"
+        },
+        {
+          "text": "那天下午当阿玛兰妲走进厨房，把手伸到炉子的炭火中，她甚至没有抬头表示同情。",
+          "art": "branch/am_burn"
+        },
+        {
+          "text": "阿玛兰妲在剧痛中失去了痛感，只闻到自己皮肉烧灼的焦味。",
+          "art": "branch/am_burn"
+        },
+        {
+          "text": "这场悲剧为她留下的唯一外在痕迹便是裹在伤手上的黑纱",
+          "art": "branch/am_burn"
+        },
+        {
+          "text": "“我谁也不嫁，”她告诉他，“尤其不嫁给你。",
+          "art": "branch/am_refusal"
+        },
+        {
+          "text": "她曾经试图在与侄子奥雷里亚诺·何塞窘迫的激情中将记忆淹没，试图在赫里内勒多·马尔克斯上校稳重阳刚的庇护下藏身，但都是枉然",
+          "art": "branch/am_refusal"
+        },
+        {
+          "text": "正是在这个时候阿玛兰妲开始织起自己的寿衣。",
+          "art": "branch/am_shroud_weave"
+        },
+        {
+          "text": "在人们的印象中，她似乎白天织晚上拆，却不是为了借此击败孤独，恰恰相反，为的是持守孤独。",
+          "art": "branch/am_shroud_weave"
+        },
+        {
+          "text": "她人老了，心中的往事却依然鲜活。",
+          "art": "branch/am_shroud_weave"
+        },
+        {
+          "text": "最令她痛苦最令她愤怒最令她心酸的却是爱情这棵芳香四溢却暗遭虫蛀的石榴树正渐渐走向死亡。",
+          "art": "branch/am_shroud_weave"
+        },
+        {
+          "text": "阿玛兰妲·布恩迪亚将在傍晚起程梢带冥信的消息就在马孔多传开",
+          "art": "branch/am_letters"
+        },
+        {
+          "text": "“放心，”她安慰委托人，“我一到那边就去打听他的下落，把口信带给他。”",
+          "art": "branch/am_letters"
+        },
+        {
+          "text": "上午她请来一位木匠，站在客厅里让他量尺寸做棺材，就像是要做一件礼服。",
+          "art": "branch/am_letters"
+        },
+        {
+          "text": "“谁也不用乱猜，”她喊道，好让费尔南达听见，“阿玛兰妲·布恩迪亚怎样来到这世上就怎样离开。”",
+          "art": "branch/am_mirror"
+        }
+      ],
+      "ending": {
+        "text": "然后，她向乌尔苏拉要来一面镜子，四十多年来第一次看见自己饱经岁月摧残与苦痛煎熬的面容，惊讶于所见竟然与想象中的形象分毫不差。",
+        "art": "branch/am_mirror"
+      }
+    },
+    "butterflies": {
+      "who": "梅梅",
+      "tag": "爱被掐死的那种孤独",
+      "screens": [
+        {
+          "text": "他叫马乌里肖·巴比伦。",
+          "art": "branch/me_garage"
+        },
+        {
+          "text": "和那位正式司机不同，马乌里肖·巴比伦为她作了操作示范。",
+          "art": "branch/me_garage"
+        },
+        {
+          "text": "就在那时，她发觉在马乌里肖·巴比伦出现之前总会见到那些黄蝴蝶。",
+          "art": "branch/me_garage"
+        },
+        {
+          "text": "每到傍晚，黄蝴蝶便飞进家来。",
+          "art": "branch/me_butterflies_house"
+        },
+        {
+          "text": "“这太糟糕了，”她说，“别人一直告诉我夜里的蝴蝶会带来厄运。”",
+          "art": "branch/me_butterflies_house"
+        },
+        {
+          "text": "一天晚上，梅梅还在洗澡，费尔南达偶然走进她的卧室，屋内群集盘旋的蝴蝶几乎让她无法呼吸。",
+          "art": "branch/me_butterflies_house"
+        },
+        {
+          "text": "请求他在后院安排一个守夜人，因为她感觉有人不时潜入家中偷鸡。",
+          "art": "branch/me_shot"
+        },
+        {
+          "text": "那天晚上，守夜人将马乌里肖·巴比伦一枪放倒，当时他正揭开屋瓦准备钻进浴室",
+          "art": "branch/me_shot"
+        },
+        {
+          "text": "一颗嵌在脊柱里的子弹令马乌里肖·巴比伦从此卧床不起。",
+          "art": "branch/me_bed"
+        },
+        {
+          "text": "他在孤独中老死，没有一句抱怨、一声抗议，也没有一丝吐露真相的企图",
+          "art": "branch/me_bed"
+        },
+        {
+          "text": "一直被当成偷鸡贼遭人唾弃。",
+          "art": "branch/me_bed"
+        },
+        {
+          "text": "自从听见后院的枪声和马乌里肖·巴比伦同时发出的痛号，她再没说过一句话，至死不曾开口。",
+          "art": "branch/me_train"
+        },
+        {
+          "text": "她像个梦游者般登上火车，甚至没有注意到那些黄蝴蝶仍然陪伴着她。",
+          "art": "branch/me_train"
+        },
+        {
+          "text": "而梅梅却不曾往窗外看过一眼。",
+          "art": "branch/me_train"
+        },
+        {
+          "text": "她看见最后一只黄蝴蝶在风扇扇叶间撞得粉碎，便认定是马乌里肖·巴比伦已死的明证。",
+          "art": "branch/me_fan"
+        },
+        {
+          "text": "然而她没有放弃。",
+          "art": "branch/me_fan"
+        },
+        {
+          "text": "第二天望过弥撒，费尔南达带她走进一座阴暗的建筑",
+          "art": "branch/me_convent"
+        }
+      ],
+      "ending": {
+        "text": "她站在大厅中央想念着马乌里肖·巴比伦，透过彩色玻璃窗射进来的黄色光线洒在她身上。",
+        "art": "branch/me_convent"
+      }
+    },
+    "station": {
+      "who": "何塞·阿尔卡蒂奥第二",
+      "tag": "全世界只有你记得的那种孤独",
+      "screens": [
+        {
+          "text": "何塞·阿尔卡蒂奥第二正在鼓动香蕉公司的工人罢工。",
+          "art": "branch/jas_strike"
+        },
+        {
+          "text": "大罢工爆发了。",
+          "art": "branch/jas_strike"
+        },
+        {
+          "text": "包括工人、妇女和孩子在内的三千多人挤满了站前的空地，又挤进一旁已被军队用一排排机枪封锁的街道。",
+          "art": "branch/jas_station"
+        },
+        {
+          "text": "“女士们，先生们，”上尉的声音低沉、缓慢，带着些许疲倦，“各位有五分钟的时间撤离。”",
+          "art": "branch/jas_station"
+        },
+        {
+          "text": "嘘声和高声喊叫淹没了计时开始的军号声。没有人挪动。",
+          "art": "branch/jas_station"
+        },
+        {
+          "text": "“五分钟过去了，”上尉声调不变，“再有一分钟就开枪了。”",
+          "art": "branch/jas_station"
+        },
+        {
+          "text": "“浑蛋！”他高喊道，“这一分钟你们自己留着吧。”",
+          "art": "branch/jas_station"
+        },
+        {
+          "text": "上尉下令开火，十四处机枪掩体立时响应。",
+          "art": "branch/jas_fire"
+        },
+        {
+          "text": "人们走投无路，形成一个巨大的旋涡，渐渐向中心缩拢",
+          "art": "branch/jas_fire"
+        },
+        {
+          "text": "他意识到自己是在一列长得望不见头的沉寂火车上，头发因凝固的鲜血而硬结，全身骨头都在疼痛。",
+          "art": "branch/jas_traincar"
+        },
+        {
+          "text": "这时才发现自己正躺在死人身上。",
+          "art": "branch/jas_traincar"
+        },
+        {
+          "text": "他看见了男人的尸体，女人的尸体，儿童的尸体，他们都将像变质的香蕉一样被丢入大海。",
+          "art": "branch/jas_traincar"
+        },
+        {
+          "text": "那是他平生见过的最长的火车，有将近两百节运货车厢",
+          "art": "branch/jas_longtrain"
+        },
+        {
+          "text": "“应该有三千人的样子。”他喃喃道。",
+          "art": "branch/jas_kitchen"
+        },
+        {
+          "text": "“死人。”他解释道，“所有在车站的人都死了。”",
+          "art": "branch/jas_kitchen"
+        },
+        {
+          "text": "那女人用同情的眼神打量着他。“这儿没有死人。”她说",
+          "art": "branch/jas_kitchen"
+        },
+        {
+          "text": "官方说法最终成为定论：没有死人，心满意足的工人们已回到家中",
+          "art": "branch/jas_kitchen"
+        },
+        {
+          "text": "“您一定是在做梦，”军官们坚持道，“马孔多没发生过任何事，现在没有将来也不会有。",
+          "art": "branch/jas_kitchen"
+        },
+        {
+          "text": "何塞·阿尔卡蒂奥第二是唯一的幸存者。",
+          "art": "branch/jas_invisible"
+        },
+        {
+          "text": "但连何塞·阿尔卡蒂奥第二也意识到他对自己视而不见。",
+          "art": "branch/jas_invisible"
+        },
+        {
+          "text": "“车站里所有的人都在上面，”他嚷道，“三千四百零八人。”",
+          "art": "branch/jas_death"
+        },
+        {
+          "text": "“你要永远记住那是三千多人，都被扔进了海里。”",
+          "art": "branch/jas_death"
+        }
+      ],
+      "ending": {
+        "text": "说完他一头扑在羊皮卷上，死的时候还睁着眼睛。",
+        "art": "branch/jas_death"
+      }
+    },
+    "ascension": {
+      "who": "美人儿蕾梅黛丝",
+      "tag": "不属于人间的那种孤独",
+      "screens": [
+        {
+          "text": "蕾梅黛丝遗传了母亲的美貌，开始被称为美人儿蕾梅黛丝。",
+          "art": "branch/rb_beauty"
+        },
+        {
+          "text": "可看到她用手抓饭吃，说出的话没有一句不显天真",
+          "art": "branch/rb_beauty"
+        },
+        {
+          "text": "于是他又揭去两片屋瓦，准备跳进浴室。",
+          "art": "branch/rb_roof"
+        },
+        {
+          "text": "“这很高，”她吓坏了，赶忙提醒他，“你会摔死的！”",
+          "art": "branch/rb_roof"
+        },
+        {
+          "text": "腐坏的屋顶在巨响中四分五裂，那男人来不及发出一声惊恐的叫喊，就已摔得头破血流，当即死在水泥地面上。",
+          "art": "branch/rb_dead_man"
+        },
+        {
+          "text": "从少女们走进种植园的那一刻起，空气中便有致命的芳香满溢。",
+          "art": "branch/rb_plantation"
+        },
+        {
+          "text": "在沟垄间劳作的男人感到自己被奇异的魔力所控制，面临着无形的危险，很多人甚至忍不住想要痛哭一场。",
+          "art": "branch/rb_plantation"
+        },
+        {
+          "text": "即她发出的不是爱情的气息，而是死亡的召唤。",
+          "art": "branch/rb_plantation"
+        },
+        {
+          "text": "四桩无可置疑的事例证实了美人儿蕾梅黛丝拥有致命力量这一猜测。",
+          "art": "branch/rb_dead_man"
+        },
+        {
+          "text": "或许想要征服她乃至祛除她带来的危险，只需一种最自然最简单、被称为“爱”的情感，但从没有人想到过这一点。",
+          "art": "branch/rb_alone"
+        },
+        {
+          "text": "美人儿蕾梅黛丝独自留在孤独的荒漠中，一无牵绊。",
+          "art": "branch/rb_alone"
+        },
+        {
+          "text": "她在没有恶魇的梦境中，在费时良久的沐浴中，在毫无规律的进餐中，在没有回忆的漫长而深沉的寂静中，渐渐成熟",
+          "art": "branch/rb_alone"
+        },
+        {
+          "text": "直到三月的一个下午，费尔南达想在花园里叠起她的亚麻床单，请来家里其他女人帮忙。",
+          "art": "endings/end_ascension"
+        },
+        {
+          "text": "“你不舒服吗？”她问道。",
+          "art": "endings/end_ascension"
+        },
+        {
+          "text": "“正相反，”她说，“我从来没这么好过。”",
+          "art": "endings/end_ascension"
+        },
+        {
+          "text": "她话音刚落，费尔南达就感到一阵明亮的微风吹过，床单从手里挣脱并在风中完全展开。",
+          "art": "endings/end_ascension"
+        },
+        {
+          "text": "就在这时美人儿蕾梅黛丝开始离开地面。",
+          "art": "endings/end_ascension"
+        }
+      ],
+      "ending": {
+        "text": "和她一起永远消失在连飞得最高的回忆之鸟也无法企及的高邈空间。",
+        "art": "endings/end_ascension"
+      }
+    },
+    "ants": {
+      "who": "奥雷里亚诺·巴比伦",
+      "tag": "读懂了一切、但已经来不及的那种孤独",
+      "screens": [
+        {
+          "text": "羊皮卷须历时百年才可破译，在那之前奥雷里亚诺还有多年时间学习梵文。",
+          "art": "branch/ab_sanskrit"
+        },
+        {
+          "text": "奥雷里亚诺学习梵文不断进步，梅尔基亚德斯却日渐生疏遥远,身影消融在正午的阳光中。",
+          "art": "branch/ab_sanskrit"
+        },
+        {
+          "text": "不要让布恩迪亚家的人近亲结婚，生下长猪尾巴的孩子。",
+          "art": "branch/ab_lovers"
+        },
+        {
+          "text": "他发现史前的植物、湿气蒸腾的水洼、发光的昆虫巳将房间内一切人类踪迹消除净尽，但羊皮卷仍安热无恙。",
+          "art": "branch/ab_lovers"
+        },
+        {
+          "text": "那里仍是分娩时的一片狼藉：大锅，染血的床单，灰盆，留在桌上摊开的尿布里萎缩的脐带，剪刀和渔线丢在一旁。",
+          "art": "branch/ab_birth"
+        },
+        {
+          "text": "他被自己和他人的回忆纠缠如同致命的长矛刺穿心房",
+          "art": "branch/ab_birth"
+        },
+        {
+          "text": "那孩子只剩下一张肿胀干瘪的皮，全世界的蚂蚁一齐出动，正沿着花园的石子路努力把他拖回巢去。",
+          "art": "branch/ab_ants"
+        },
+        {
+          "text": "他看到羊皮卷卷首的提要在尘世时空中完美显现：家族的第一个人被捆在树上，最后一个人正被蚂蚁吃掉。",
+          "art": "branch/ab_ants"
+        },
+        {
+          "text": "那是他家族的历史，连最琐碎的细节也无一遗漏，百年前由梅尔基亚德斯预先写出。",
+          "art": "branch/ab_reading"
+        },
+        {
+          "text": "而是将一个世纪的日常琐碎集中在一起，令所有事件在同一瞬间发生。",
+          "art": "branch/ab_reading"
+        },
+        {
+          "text": "他读得如此入神，仍未发觉风势又起，飓风刮落了门窗，掀掉了东面长廊的屋顶，拔出了房屋的地基。",
+          "art": "branch/ab_reading"
+        },
+        {
+          "text": "开始破译他正度过的这一刻，译出的内容恰是他当下的经历，预言他正在破解羊皮卷的最后一页，宛如他正在会言语的镜中照影。",
+          "art": "branch/ab_reading"
+        },
+        {
+          "text": "他再次跳读去寻索自己死亡的日期和情形，但没等看到最后一行便已明白自己不会再走出这房间",
+          "art": "branch/ab_wipe"
+        }
+      ],
+      "ending": {
+        "text": "因为注定经受百年孤独的家族不会有第二次机会在大地上出现。",
+        "art": "branch/ab_wipe"
       }
     }
   }
